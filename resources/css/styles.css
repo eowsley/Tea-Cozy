@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box sizing: border-box;
+  text-decoration: none;
+  }
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  display: block;
+  position: fixed;
+  width: 100%;
+
+}
+
+.logo {
+  float: left;
+  left: 10px;
+  top: 50px;
+  padding: 5px;
+
+}
+.logo img {
+  width: 75%;
+}
+
+nav li {
+  display: inline-block;
+}
+nav li a {
+  color: seashell;
+}
+nav ul {
+  float: right;
+  padding-top: 25px;
+  padding-right: 10px;
+}
+main .background {
+  width: 100%;
+  padding: 5px;
+}
+
+.background img {
+  width: 100%;
+  object-fit: cover;
+}
+.banner {
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  background-color: black;
+  width: 100%;
+  padding: 5px;
+}
+
+.items h4 {
+  padding: 2% 0;
+}
+
+.items h2 {
+  padding: 3% 0 0% 0;
+}
+
+.items{
+  width: 100%;
+}
+
+.photos  {
+display: flex;
+flex-flow: wrap;
+justify-content: center;
+}
+
+.photo img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.photo {
+  flex-flow: row wrap;
+}
+
+.locationBackground  {
+  position: relative;
+  padding-top: 80px;
+}
+
+.locationBackground img {
+  width: 90%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.locations {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  width: 100%;
+  padding: 5px;
+}
+
+.locationBackground h2 {
+   position: absolute;
+   top: 25%;
+   left: 42%;
+
+}
+
+.location {
+  background-color: black;
+  padding: 10px;
+  margin: 20px;
+  width: 300px;
+  height: auto;
+}
+
+.location h3 {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.location p {
+  padding: 15px;
+}
+footer h2, footer h4, footer h5 {
+  padding: 20px;
+}
+.copyright {
+  text-align: left;
+}
